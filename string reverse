@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<string.h>
+#include<conio.h>
+void main()
+{
+  char string[20];
+  printf("enter the string");
+  scanf("%s",&string);
+  strrev(string);
+  printf("the reverse of the string is%s",string);
+  getch();
+}
